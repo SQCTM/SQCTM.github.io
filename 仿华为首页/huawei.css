@@ -1,0 +1,420 @@
+a{text-decoration:none;}
+li{list-style:none;}
+.top,.bottom2{
+	height:40px;
+	margin-top:-20px;
+	margin-left:-8px;
+	margin-right:-8px;
+	background-color:#262a30;
+}
+.top span,.top p{
+	display:inline-block;
+	color:white;
+	font-size:13px;
+    position:absolute;
+}
+.top span{left:50px;top:5px;}
+.top p{left:1020px;top:-7px;}
+/*导航*/
+.daohang{
+	height:75px;
+	width:1224px;
+	margin-left:-9px;
+	box-shadow:2px 0px 10px rgba(0,0,0,0.2);
+	z-index:1;
+}
+.menu{
+	position:relative;
+	top:-10px;
+	height:30px;
+}
+.menu li:hover{color:#FFB6C1;}
+#menu1{
+	display:inline-block;
+	width:496px;
+	margin-left:30px;
+}
+.daohang li{display:inline-block;font-size:20px;margin-left:35px;}
+.linear{
+	width:2px;
+    height:50px;
+    background-color:#d4d4d4;
+    display:inline-block;
+    margin-left:42px; 
+    position:relative;
+    top:-7px;
+}
+#menu2{
+	display:inline-block;
+	width:295px;
+	margin-left:20px;
+}
+.orange{
+	z-index:1;
+	display:inline-block;
+	border-radius:5px;
+    background-image:url(tupian/nav_p30pro_1cn.png);
+    height:300px;
+    width:260px;
+    position:absolute;
+    top:40px;
+    left:70px;
+}
+.ai{
+	width:510px;
+	height:255px;
+	z-index:1;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:350px;
+}
+.ai li{
+	width:80px;
+	display:inline-block;
+	font-size:20px;
+	margin-left:55px;
+	margin-top:80px;
+	
+}
+.need{
+	background-color:#ebebeb;
+	width:300px;
+	height:404px;
+	z-index:1;
+	float:right;
+}
+.need ul{position:absolute;top:30px;}
+.need li,#zmenu2 li{margin:15px;}
+#zmenu2 ul{display:inline-block;margin:25px;position:relative;top:30px;}
+/*总和*/
+#middle1,.middle2,.middle3,.activities,.story,.news{
+	height:660px;
+	margin-top:4px;
+	margin-left:-8px;
+	margin-right:-8px;
+	z-index:-1;
+}
+/*middle1*/
+.zmenu{
+	height:404px;
+	width:1224.5px;	
+	z-index:1;
+	position:relative;
+	top:-617px;
+	background-color:#f5f5f5;
+}
+#zmenu1{display:none;}
+#zmenu2{display:none;}
+#mpic1,#mpic2,#mpic3{
+	height:600px;
+	margin-top:-8px;
+	margin-bottom:0px;
+	margin-left:-1px;
+	margin-right:-1px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    z-index:0;
+}
+#mpic1{
+	background-image:url(tupian/hanner-bciw-bg.jpg);
+    position:relative;
+    top:-17px;
+}
+#mpic2{
+	background-image:url(tupian/hbanner_p30pro_cn_v3.jpg);
+    position:relative;
+    top:-15px;
+	display:none;
+}
+#mpic3{
+	background-image:url(tupian/hbanner-hwsafer-bg.jpg);
+    position:relative;
+    top:-15px;
+	display:none;
+}
+#middle1 span{
+	display:block;
+    font-size:25px;
+    text-align:center;
+    position:relative;
+}
+.good{top:480px;}
+.sb{top:190px;}
+#dots{
+	width:1150px;
+	display:inline-block;
+    text-align:center;
+    text-align:right;
+    z-index:2;
+    position:relative;
+    top:510px;
+}
+#dots span{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	line-height:12px;
+	border-radius:50%;
+	background-color:rgba(7,17,27,0.4);
+	box-shadow:0 0 0 2px rgba(255,255,255,0.8);
+	margin-left:8px; 
+}
+#dots span.active{background-color:white;}
+/*浮着的*/
+.fuzhede{
+	background:white;
+	box-shadow:0 0 100px rgba(0,0,0,0.2);
+	z-index:1;
+	height:183px;
+	width:1100px;
+	position:relative;
+	top:-130px;
+	left:50px;
+    margin:0px;
+    border-radius:7px;
+}
+.fpic{
+	display:inline-block;
+    height:143px;
+    width:342px;
+    margin-left:5px;
+    margin-top:7px;
+    padding-top:25px;
+    padding-left:10px;
+}
+.fcontent{
+	height:130px;
+	width:230px;
+	display:inline-block;
+	position:relative;
+	top:-20px;
+	left:20px;
+}
+/*middle2*/
+.blue{
+	width:600px;
+	height:450px;
+	display:inline-block;
+	border-radius:0 5px 0 5px;
+	background:linear-gradient(to bottom right,#15b0e8,#59c8d5) ;
+	position:relative;
+	top:-110px;
+}
+.bcontent{
+	height:250px;
+	width: 250px;
+	margin-top:100PX;
+	margin-left:70px;
+	margin-right:0px; 
+}
+.img{
+	display:inline-block;
+	background-image:url(tupian/p30_left_cn.png); 
+	height:500px;
+	width:264px;
+	margin:0px;
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+	position:relative;
+    top:100px;
+    left:-200px;
+	z-index:1;
+}
+.img:hover{
+	position:relative;
+	top:60px;
+}
+.card{
+	display:inline-block;
+	width:420px;
+	height:550px;
+	margin:0px;
+	position:relative;
+	top:-560px;
+	left:750px;
+	border-radius:5px;
+	background-image:url(tupian/mate20-plz-cn-452.jpg);
+	background-size:420px 240px;
+	background-repeat:no-repeat;
+	background-color:#dde6ed;
+}
+.dcontent{
+	height:234px;
+	width:332px;
+	position:relative;
+	top:280px;
+	left:50px;
+}
+/*middle3*/
+.middle3{
+	background-image:url(tupian/home_banner_matex_pc_cn.jpg);
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+}
+.content{
+    height:450px;
+    width:400px;
+    padding-left:100px;
+    position:relative;
+    top:35px;
+    left:700px;
+}
+/*查看更多 ->*/
+.a1,.a2,.a3{
+	float:right;
+    font-size:17px;
+	color:black;
+	position:relative;
+	right:10px;
+	top:-55px;
+}
+/*展会活动*/
+.row{
+	display:inline-block;
+	height:530px; 
+	width:1128px;
+	position:relative;
+	top:-15px;
+	left:50px;
+}
+/*#row1{display:none;}*/
+#row2{
+	display:none; 
+	position:relative;
+	top:-15px;
+}
+#row3{
+	display:none;
+	position:relative;
+	top:-15px;
+}
+.acontentcard{
+	display:inline-block;
+	height:380px;
+	width:1120px;
+	border-radius:5px;
+	background-color:#dce6ee; 
+	position:relative;
+	top:65px; 
+}
+.acontent{
+	width:419px;
+	height:296px;
+	position:relative;
+	top:40px;
+	left:70px;
+	overflow:hidden;
+}
+.acontent h3{margin:0px;}
+.apic{
+	width:540px;
+	display:inline-block;
+	border-radius:5px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:relative;
+	top:-374px;
+	left:587px;
+}
+.apic1{background-image:url(tupian/mwc-shanghai-2019-cn.jpg);height:537px;}
+.apic2{background-image:url(tupian/hugm2019.jpg);height:538px;}
+.apic3{background-image:url(tupian/5g-ultra-lean-site-2019.jpg);height:538px;}
+.button{
+	display:inline-block;
+	width:15px;
+	height:30px;
+	position:relative;	
+	transform:scale(2.5,3);
+	z-index:2;
+}
+#prev{top:270px;}
+#next{top:270px;left:1185px;}
+/*成功故事*/
+.story h3{
+	font-size:22px;
+    line-height:32px;
+}
+.st1,.st2,.st3{
+	display:inline-block;
+	height:430px;
+	width:309px;
+	border-radius:5px;
+	margin-left:75px;
+	margin-bottom:10px;
+    background-color:#dde6ed;
+}
+.st2,.st3{position:relative;top:-10px;}
+.spic1,.spic2,.spic3{
+    width:309px;
+    height:180px;
+    border-radius:5px 5px 0 0;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.spic1{background-image:url(tupian/yunnan-video-crbt.jpg)}
+.spic2{background-image:url(tupian/rustenburg-smart-city.jpg)}
+.spic3{background-image:url(tupian/3uk-314.jpg)}
+.ccontent{
+	height:220px;
+	width:230px;
+	margin-left:35px;
+}
+/*近期新闻*/
+.anews{
+	display:inline-block;
+	height:470px;
+	width:408px;
+	border-radius:5px;
+	background-color:#dde6ed;
+	position:relative;
+    left:80px;
+    top:30px;
+}
+.npic{
+    width:408px;
+    height:220px;
+    border-radius:5px 5px 0 0;
+    background-image:url(tupian/190529.jpg); 
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.mnews{
+	display:inline-block;
+	height:442px;
+	width:418px;
+	margin-left:200px;
+	position:relative;
+	top:-20px;
+}
+.mnews li{margin-bottom:45px;}
+/*乱七八糟的菜单*/
+.bottom1{
+    height:800px;
+    margin-left:-8px;
+	margin-right:-8px;
+    background-color:#DCDCDC;
+}
+.nae,.about,.hangye,.jishu{
+    width:150px;
+    display:inline-block;
+    margin-right:90px;
+}
+.about{margin-left:40px;}
+.nae{position:relative;top:-70px;}
+.hangye{position:relative;top:-105px;}
+.jishu{position:relative;top:-105px;}
+.yewu,.wangzhan{margin-left:40px;}
+.bottom1 li{margin-top:15px;}
+.yewu li,.wangzhan li{
+	display:inline-block;
+	width:100px;
+	margin-right:150px;
+}
+.bottom2 p{
+	color:white;
+	font-size:13px;
+	position:absolute;
+	left:70px; 
+}
